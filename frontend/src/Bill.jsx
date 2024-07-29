@@ -35,9 +35,9 @@ const Bill = () => {
       <div ref={componentRef} className="bill">
         
       <h2>Bill Invoice</h2>
-      <p>Jazeera Foods </p>
-      <p>Commercial Market Rawalpindi Branch </p>
-      <p>Contact:0311:1234567 </p>
+      <p>Madina Autos </p>
+      <p>Shop 102 Pirwadhai Rawalpindi </p>
+      <p>Contact:03165444681 </p>
       <table className="bill-table">
         <thead>
           <tr>

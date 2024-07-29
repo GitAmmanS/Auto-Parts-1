@@ -10,9 +10,13 @@ const DeleteCategory = () => {
 
         axios.delete(`${baseUrl}/category/delete?name=${name}`)
         .then((res)=>{
-            console.log(res.data);
-            alert("Record Deleted Succesfully")
-            setName('');
+            if (res.data.deletedCount===1) {
+                alert("Record Deleted Successfully");
+                setName('');
+            } else {
+                alert('Record not Found');
+            }
+            // setName('');
         }).catch((err)=>{
             console.log(err);
         })

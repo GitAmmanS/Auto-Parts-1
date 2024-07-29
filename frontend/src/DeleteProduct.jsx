@@ -11,7 +11,7 @@ const DeleteProduct = () => {
         setIsLoading(true);
         axios.delete(`${baseUrl}/product/delete?name=${name}`)
             .then((res) => {
-                console.log(res.data.deletedCount);
+                // console.log(res.data.deletedCount);
                 if (res.data.deletedCount===1) {
                     alert("Record Deleted Successfully");
                     setName('');
