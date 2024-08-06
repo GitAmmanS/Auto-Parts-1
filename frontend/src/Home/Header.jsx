@@ -69,24 +69,13 @@ useEffect(()=>{
         <CiSearch onClick={handleSearch}  />
       </div>
       <ul className="nav__list">
+       
         <li className="nav__item">
-          <NavLink to="/" className="nav__link">
-            Home
+          <NavLink to="/report" className="nav__link">
+            Report
           </NavLink>
         </li>
-        <li className="nav__item">
-          <NavLink to="/news" className="nav__link">
-            News
-          </NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink
-            to="/about-us"
-            className="nav__link"
-          >
-            About
-          </NavLink>
-        </li>
+        
         <div className="bttn">
       <button 
         onClick={handleLogout} 

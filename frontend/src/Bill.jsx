@@ -38,6 +38,7 @@ const Bill = () => {
       <p>Madina Autos </p>
       <p>Shop 102 Pirwadhai Rawalpindi </p>
       <p>Contact:03165444681 </p>
+      <p>Contact:03205626100 </p>
       <table className="bill-table">
         <thead>
           <tr>

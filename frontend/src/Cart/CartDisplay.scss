@@ -1,3 +1,7 @@
+$breakpoint-small: 440px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+
 .cart-display {
   margin-top: 0  ;
   padding: 10px;
@@ -15,7 +19,9 @@
     font-size: 18px;
     margin-bottom: 12px;
   }
-
+@media (max-width:$breakpoint-small) {
+  flex: 1; 
+}
   .cart-item {
     border-bottom: 1px solid #000;
     padding: 8px; 
